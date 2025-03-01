@@ -10,7 +10,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # URL вашего API
-API_URL = "http://127.0.0.1:5000"
+API_URL = "http://hidequill-di4gmf.stormkit.dev"
 
 # Команда /start
 async def start(update: Update, context: CallbackContext) -> None:
